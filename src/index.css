@@ -321,6 +321,7 @@ body{
 
 	
 	left: 0;
+	top: 2%;
 	
 	transform: translateX(0%);
 	text-shadow: 1px 1px 20px rgba(255,255,255,.5);
