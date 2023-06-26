@@ -215,42 +215,55 @@ function App() {
 
 
           
-          <div className="contenedor ">
+          <div >
 
 
             
             <h2 className="text-center text-4xl font-bold">Testimonios</h2>
 
-            <ul className=" testimoniales flex">
+            <ul className=" testimoniales flex ">
               
               <li >
 
-                  <img src="../public/imagenes/comillas.png"  className="comillas"/>
-                
-                <p className="w-3/4 mx-auto testimonial text-5xl text-center my-20 ">
-                  
-                  Testimonio. Haz clic aquí para editar y agregar un texto que diga algo bueno sobre ti y tus servicios.
+                 <div className="contenedor">
+                   
 
-                </p>
+                   <img src="/imagenes/comillas.png"  className="comillas"/>
+                
+                  <p className="w-3/4 mx-auto testimonial text-5xl text-center my-20 ">
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+
+                  </p>
 
 
                  <p className="text-center text-xl"><span className="font-bold"> Ronald Smith </span>, LIMA  </p>
+
+
+                 </div>
 
               </li>
 
 
               <li >
                 
-                 <img src="../public/imagenes/comillas.png"  className="comillas"/>
-                
-                 <p className="w-3/4  testimonial text-5xl text-center my-20 mx-auto">
-                    
-                    Testimonio. Haz clic aquí para editar y agregar un texto que diga algo bueno sobre ti y tus servicios.
+                    <div className="contenedor">
 
-                  </p>
+                       <img src="/imagenes/comillas.png"  className="comillas"/>
+                      
+                       <p className="w-3/4  testimonial text-5xl text-center my-20 mx-auto">
+                          
+                          Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat. 
+
+                        </p>
 
 
-                 <p className="text-center text-xl"><span className="font-bold"> Anderson Calderón </span>, LIMA  </p>
+                       <p className="text-center text-xl"><span className="font-bold"> Anderson Calderón </span>, LIMA  </p>
+
+                    </div>
 
               </li>
 

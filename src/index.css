@@ -28,6 +28,7 @@ body{
 
 .boton{
 
+	
 	border : 2px solid black;
 	padding: .7rem 1rem;
 	border-radius: 2rem;
@@ -332,6 +333,12 @@ body{
 }
 
 
+	.contenedor-contenido-descripcion-anderson p{
+
+		padding-right: 0;
+		padding: 0 1rem ;
+
+	}
 
 
 .contenedor-contenido-descripcion-anderson{
@@ -344,6 +351,7 @@ body{
 
 	font-size: 1.6rem;
 	text-align:center;
+	letter-spacing: .05rem;
 }
 
 }
@@ -382,7 +390,8 @@ body{
 
 .contenedor-contenido-descripcion-anderson h3{
 
-	font-size: 1.3rem;
+	font-size: 1.4rem;
+
 }
 
 
@@ -552,7 +561,8 @@ body{
 
 .testimoniales{
 
-	width: 220%;
+	width: 200%;
+
 	animation: animarTestimonial 10s forwards alternate infinite;
 	transition: all .5s;
 
@@ -571,6 +581,8 @@ li {
 
 	position: relative;
 	z-index: 10;
+	
+	width: 100%;
 }
 
 li p.testimonial{
@@ -653,7 +665,7 @@ li p.testimonial{
 
 	55%,100%{
 
-		margin-left: -110%;
+		margin-left: -100%;
 
 	}
 
