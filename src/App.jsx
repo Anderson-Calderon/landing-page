@@ -141,7 +141,7 @@ function App() {
 
         <section className="que-vas-aprender contenedor">
             
-            <h2 className="text-4xl my-20 text-center font-bold">Qué vas a aprender</h2>
+            <h2 className="text-4xl my-20 text-center font-bold">¿ Qué vas a aprender ?</h2>
 
             <div className="contenedor-cartas-aprender mb-20">
 
@@ -273,9 +273,9 @@ function App() {
               
               <div className="contenedor-input flex">
                 
-                 <input  className="w-50 p-2" type="text" name="nombre"  placeholder="Tu Nombre" autocomplete="off" required="true" />
+                 <input  className="w-50 p-2" type="text" name="nombre"  placeholder="Tu Nombre" autocomplete="off" required />
 
-                 <input   className="w-50 p-2" type="email" name="email"  placeholder="Tu Correo" autocomplete="off" required="true" />
+                 <input   className="w-50 p-2" type="email" name="email"  placeholder="Tu Correo" autocomplete="off" required />
 
               </div>
 
