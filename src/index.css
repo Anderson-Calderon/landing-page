@@ -60,6 +60,8 @@ body{
 	padding: .5rem 1rem;
 	font-size: 1.2rem;
 	transition: all .5s;
+	display: inline-block;
+	
 }
 
 
@@ -324,7 +326,7 @@ body{
 	top: 2%;
 	
 	transform: translateX(0%);
-	text-shadow: 1px 1px 20px rgba(255,255,255,.5);
+	text-shadow: 1px 1px 10px rgba(255,255,255,1);
 
 	
 }
@@ -340,7 +342,7 @@ body{
 
 .contenedor-contenido-descripcion-anderson h3{
 
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	text-align:center;
 }
 
@@ -380,7 +382,7 @@ body{
 
 .contenedor-contenido-descripcion-anderson h3{
 
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 
@@ -697,7 +699,7 @@ form{
 
 	.boton-formulario{
 
-		margin:auto;
+		margin:2rem auto;
 		display: inline-block;
 	}
 
