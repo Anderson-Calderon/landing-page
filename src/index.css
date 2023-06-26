@@ -9,11 +9,6 @@
 	box-sizing: border-box;
 }
 
-body{
-
-	overflow-y: scroll;
-	scroll-behavior: smooth;
-}
 
 /*UTILIDADES*/
 
@@ -550,7 +545,7 @@ body{
 
 	background: rgb(167,209,212);
 	padding: 6rem 0 3rem 0;
-
+	overflow: hidden;
 
 
 }
