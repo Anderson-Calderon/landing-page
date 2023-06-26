@@ -1,5 +1,5 @@
 import { useState ,useEffect } from 'react'
-
+import { FaFacebookF , FaTwitter ,FaYoutube } from "react-icons/fa";
 
 
 
@@ -60,10 +60,24 @@ function App() {
 
               <nav className="barra-navegacion flex gap-5">
                 
-                <a href="">INICIO</a>
-                <a href="">FB</a>
-                <a href="">TW</a>
-                <a href="">YOU</a>
+                <a href="" className="">INICIO</a>
+                <a href=""> 
+
+                  <FaFacebookF  style={{color: '' , fontSize: '25px'}}/>
+
+                 </a>
+                <a href="">
+                  
+                  <FaTwitter  style={{color: '' , fontSize: '25px'}} />
+
+
+                </a>
+                <a href="">
+                  
+                  <FaYoutube   style={{color: '' , fontSize: '25px'}} />
+
+
+                </a>
 
 
               </nav>
@@ -318,9 +332,9 @@ function App() {
 
            <nav className="flex gap-4">
             
-            <a href="" className="text-white">FA</a>
-            <a href="" className="text-white">TW</a>
-            <a href="" className="text-white">YOU</a>
+            <a href="" className="text-white"><FaFacebookF  style={{color: '' , fontSize: '25px'}}/></a>
+            <a href="" className="text-white"> <FaTwitter  style={{color: '' , fontSize: '25px'}} /></a>
+            <a href="" className="text-white"><FaYoutube  style={{color: '' , fontSize: '25px'}} /></a>
 
            </nav>
 

@@ -593,6 +593,7 @@ li p.testimonial{
 	top: 2rem;
 	left: 9rem;
 	z-index: -1;
+	opacity: .4;
 
 }
 
