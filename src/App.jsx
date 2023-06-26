@@ -225,7 +225,7 @@ function App() {
               
               <li >
 
-                  <img src="public/imagenes/comillas.png"  className="comillas"/>
+                  <img src="../public/imagenes/comillas.png"  className="comillas"/>
                 
                 <p className="w-3/4 mx-auto testimonial text-5xl text-center my-20 ">
                   
@@ -241,7 +241,7 @@ function App() {
 
               <li >
                 
-                 <img src="public/imagenes/comillas-.png"  className="comillas"/>
+                 <img src="../public/imagenes/comillas.png"  className="comillas"/>
                 
                  <p className="w-3/4  testimonial text-5xl text-center my-20 mx-auto">
                     
