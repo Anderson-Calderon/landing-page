@@ -54,7 +54,15 @@ function Inicio() {
               showCancelButton: false,
               confirmButtonColor: '#4274CC',
               confirmButtonText: 'OK'
-            })
+            }).then((result) => {
+                 
+                  if (result.isConfirmed) {
+                    
+                      setNombre("");
+                      setCorreo("");
+
+                  } 
+                })
 
     }catch(error){
 
