@@ -64,6 +64,8 @@ const ConfirmarAsistencia = ()=>{
 								  } 
 								})
 
+					console.log("URL AL FRONT END :"+import.meta.env.VITE_FRONT_URL);
+
 				}
 
 
