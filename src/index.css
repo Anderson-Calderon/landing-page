@@ -100,84 +100,18 @@
 
 }
 
+.header .contenido-header h1{
 
-@media(max-width: 533px){
 
-
-.header .barra-superior nav{
-		display: none;
-}
-
+	line-height: 3.8rem;
 
 }
 
 
-.header .contenido-header{
-
-	display: flex;
-	flex-direction: column;
-
-}
 
 @media(max-width: 768px){
 
-
-.header .contenido-header{
-
-	padding-left: 2rem;
-
-}
-
-
-}
-
-
-
-@media(max-width: 580px){
-
-
-.header .contenido-header{
-
-	padding-left: 0;
-	
-
-}
-
-.header .contenido-header h1,
-.header .contenido-header p{
-
-	text-align: center;
-	
-
-}
-
-.header .contenido-header .boton{
-
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-
-}
-
-@media(max-width: 544px){
-
-
-.header .contenido-header{
-
-	padding-left: 0;
-	
-
-}
-
-.header .contenido-header h1{
-
-	font-size: 2.2rem;
-	line-height: 2.5rem!important;
-	
-
-}
-
-.header .contenido-header .boton{
+	.header .contenido-header .boton{
 
 	margin-left: 50%;
 	transform: translateX(-50%);
@@ -189,8 +123,23 @@
 }
 
 
-@media(max-width: 420px){
 
+@media(max-width: 640px){
+
+
+.header .contenido-header h1{
+
+	
+	line-height: 2.5rem!important;
+	
+
+}
+
+
+}
+
+
+@media(max-width: 420px){
 
 
 
@@ -223,12 +172,6 @@
 
 
 
-.header .contenido-header h1{
-
-
-	line-height: 3.8rem;
-
-}
 
 
 
@@ -288,29 +231,10 @@
 	padding-top: calc(10% + 7rem);
 }
 
-@media(max-width: 1020px){
-
-	.contenedor-contenido-descripcion-anderson p{
-
-		padding-right: 5rem;
-
-	}
 
 
 
-}
 
-@media(max-width: 968px){
-
-	.contenedor-contenido-descripcion-anderson p{
-
-		padding-right: 1rem;
-
-	}
-
-
-
-}
 
 @media(max-width: 768px){
 
@@ -319,8 +243,7 @@
 
 	
 	left: 0;
-	top: 2%;
-	
+	top: 2%;	
 	transform: translateX(0%);
 	text-shadow: 1px 1px 10px rgba(255,255,255,1);
 
@@ -328,18 +251,11 @@
 }
 
 
-	.contenedor-contenido-descripcion-anderson p{
-
-		padding-right: 0;
-		padding: 0 1rem ;
-
-	}
-
 
 .contenedor-contenido-descripcion-anderson{
 
 	padding-top: 0;
-	margin-top: 2rem;
+	
 }
 
 .contenedor-contenido-descripcion-anderson h3{
@@ -363,10 +279,6 @@
 
 	
 }
-
-
-
-
 
 
 
@@ -397,8 +309,6 @@
 
 
 /*QUÉ VAS A APRENDER*/
-
-
 
 
 .que-vas-aprender .boton{
