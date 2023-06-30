@@ -47,6 +47,8 @@ function Inicio() {
       const {data} = await axios.post(import.meta.env.VITE_BACKEND_URL+"/api/usuarios",{nombre,correo});
 
 
+                  
+
            Swal.fire({
               title: "Cupo Reservado ",
               text: data.msg,
@@ -56,10 +58,11 @@ function Inicio() {
               confirmButtonText: 'OK'
             }).then((result) => {
                  
+
+
                   if (result.isConfirmed) {
                     
-                      setNombre("");
-                      setCorreo("");
+                      window.location.href=import.meta.env.VITE_FRONT_URL
 
                   } 
                 })
@@ -67,7 +70,20 @@ function Inicio() {
     }catch(error){
 
 
-      console.log("ERROR : "+error.response.data.msg);
+    
+
+        Swal.fire({
+              title: "Cupo ya Reservado",
+              text: "Este usuario ya reservó su cupo al seminario de Desarrollo Web",
+              icon: 'error',
+              showCancelButton: false,
+              confirmButtonColor: '#4274CC',
+              confirmButtonText: 'OK'
+            }).then((result) => {
+                 
+
+
+                })
 
   }
 
